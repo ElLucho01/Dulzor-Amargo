@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -11,9 +13,9 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --sans: 'Roboto', 'Segoe UI', Roboto, sans-serif;
+  --heading: 'Roboto', 'Segoe UI', system-ui, sans-serif;
+  --mono: 'Roboto', Consolas, monospace;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
@@ -32,9 +34,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
+    --text: #2d2d2d;
     --text-h: #f3f4f6;
-    --bg: #16171d;
+    --bg: #dededf;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
@@ -55,11 +57,10 @@ body {
 }
 
 #root {
-  width: 1126px;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
