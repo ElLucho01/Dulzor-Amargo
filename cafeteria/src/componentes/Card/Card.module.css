@@ -1,0 +1,30 @@
+.tarjeta{
+  width: 320px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  box-shadow: 3px 3px 15px black;
+}
+
+.tarjetaHeader{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tarjetaFoto{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tarjetaNombre{
+  display: flex;
+  gap: 15px;
+}
+
+.tarjetaContenido{
+  margin-top: 20px;
+}

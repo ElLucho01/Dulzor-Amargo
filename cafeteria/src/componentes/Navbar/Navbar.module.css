@@ -49,8 +49,10 @@ button{
     width: 10em;
     font-size: 24px;
     border: 1px solid black;
+    transition: 0.3s;
 }
 
 button:hover{
     background-color: rgb(199, 209, 222);
+    transform: scale(1.05);
 }

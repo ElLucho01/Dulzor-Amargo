@@ -4,8 +4,8 @@ function Navbar(){
     return(
         <header className={styles.header}>
             <div className={styles.left}>
-                    <h2>Cafetería Piruláctico</h2>
-                    <img src="../src/assets/cafe-logo.png" alt="" srcset="" />
+                    <h2>Dulce Amargor</h2>
+                    <img src="../src/assets/cafe-logo.png" alt="Logo"/>
             </div>
             <div className={styles.right}>
                 <button className={styles.botonHeader}>Ventas</button>

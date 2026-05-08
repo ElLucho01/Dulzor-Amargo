@@ -1,0 +1,23 @@
+.redes{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.redes a{
+    color: #6b6b6b;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.redes a:hover{
+    color: black;
+    transform: scale(1.15);
+}
+
+.sup{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
