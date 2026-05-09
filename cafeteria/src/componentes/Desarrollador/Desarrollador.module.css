@@ -1,0 +1,70 @@
+.devContainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.devCard{
+    width: 100%;
+    max-width: 500px;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+}
+
+.devFoto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.devNombre{
+    font-size: 2rem;
+    color: black;
+}
+
+.devCarrera,
+.devCiudad{
+    font-size: 1.1rem;
+}
+
+.devGithub{
+    text-decoration: none;
+
+    background-color: black;
+    color: white;
+
+    padding: 12px 24px;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.devGithub:hover{
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px){
+
+    .devCard{
+        padding: 25px;
+    }
+
+    .devNombre{
+        font-size: 1.5rem;
+    }
+
+}

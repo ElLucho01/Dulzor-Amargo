@@ -1,0 +1,91 @@
+.formContainer{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 40px 20px;
+
+    box-sizing: border-box;
+}
+
+.cardForm{
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 30px;
+
+    background-color: #f5f5f5;
+
+    border-radius: 25px;
+
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.cardForm input,
+.cardForm textarea{
+    width: 100%;
+
+    padding: 15px;
+
+    border: 2px solid #ddd;
+    border-radius: 12px;
+
+    font-size: 1rem;
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.cardForm input:focus,
+.cardForm textarea:focus{
+    border-color: #c59d5f;
+}
+
+.cardForm textarea{
+    min-height: 120px;
+
+    resize: vertical;
+}
+
+.cardForm button{
+    padding: 15px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: #c59d5f;
+
+    color: white;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.cardForm button:hover{
+    transform: scale(1.02);
+
+    background-color: #b38b4d;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px){
+
+    .cardForm{
+        padding: 20px;
+    }
+
+}

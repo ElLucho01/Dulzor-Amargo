@@ -1,5 +1,6 @@
 import { FaTwitter, FaYoutube, FaLinkedin, FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 import styles from './Footer.module.css'
+import { Link } from "react-router-dom"
 
 function Footer(){
     return(
@@ -25,7 +26,7 @@ function Footer(){
                         <FaTiktok />
                     </a>
                 </div>
-            <a href="#">Desarrollador</a>
+            <Link to="/Desarrollador">Desarrollador </Link>
         </div>
         <p>Talca, {new Date().getFullYear()} </p>
         </footer>

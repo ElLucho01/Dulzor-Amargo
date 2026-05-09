@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     border: 2px solid black;
-    height: 100vh;
+    height: 30%;
     box-sizing: border-box;
     min-height: 100vh;
     gap: 0;
@@ -40,6 +40,20 @@
 
 .cuadroMapa{
     background-color: #9dbc83;
+}
+
+/* Móvil */
+@media (max-width: 768px){
+
+    .mainCuadros{
+        grid-template-columns: 1fr;
+    }
+
+    .textSup{
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 

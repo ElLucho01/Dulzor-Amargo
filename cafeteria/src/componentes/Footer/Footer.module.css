@@ -21,3 +21,21 @@
     justify-content: space-between;
 }
 
+@media (max-width: 768px){
+
+    .footer{
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .sup{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .redes{
+        align-items: center;
+        justify-content: center;
+    }
+
+}
